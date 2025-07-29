@@ -6,6 +6,37 @@ We are a team committed to creating a secure, private, and decentralized communi
 Creemos que la verdadera privacidad no se compra, se construye.  
 We believe true privacy isn’t bought — it’s built.
 
+## ¿Cómo se usa? / How to Use It
+
+Al iniciar la aplicación, deberás ingresar una **clave secreta (secret key)** de exactamente 16 caracteres.  
+When launching the application, you must enter a **secret key** that is exactly 16 characters long.
+
+Es obligatorio que tenga 16 caracteres; ni más ni menos.  
+It is required to be 16 characters long — no more, no less.
+
+La persona que cree una sala debe compartir esa clave con quien quiera invitar.  
+The person who creates a room must share this key with anyone they wish to invite.
+
+Ambas personas deben usar la misma clave secreta para que la comunicación funcione correctamente.  
+Both users must use the same secret key for communication to work correctly.
+
+Si alguien usa una clave diferente, **no podrá desencriptar los mensajes** correctamente.  
+If someone uses a different key, **they will not be able to decrypt messages** properly.
+
+Esto se debe a que los mensajes son cifrados matemáticamente y la clave es parte de ese cálculo.  
+This is because messages are encrypted mathematically, and the key is part of that process.
+
+Si las claves no coinciden entre los usuarios conectados, **la sala se romperá para todos**.  
+If the keys do not match between connected users, **the room will break for everyone**.
+
+No existe ningún historial de chat: los mensajes no se almacenan en ningún servidor.  
+There is no chat history: messages are not stored on any server.
+
+La comunicación es en tiempo real, cifrada y solo disponible mientras ambas personas están conectadas.  
+Communication is real-time, encrypted, and only available while both users are connected.
+
+---
+
 ## ¿Quiénes somos? / Who We Are
 
 Somos un grupo de desarrolladores y entusiastas de la privacidad que trabajamos para ofrecer una alternativa segura y confiable frente a los sistemas tradicionales.  
