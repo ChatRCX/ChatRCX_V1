@@ -32,8 +32,8 @@ This is because messages are encrypted mathematically, and the key is part of th
 Si las claves no coinciden entre los usuarios conectados, **la sala se romperá para todos**.  
 If the keys do not match between connected users, **the room will break for everyone**.
 
-No existe ningún historial de chat: los mensajes no se almacenan en ningún servidor.  
-There is no chat history: messages are not stored on any server.
+No hay historial de chat: los mensajes no se almacenan en ningún servidor, el servidor nada más se encarga de la conexión P2P pero no puede leer ni modificar nada.
+There is no chat history: messages are not stored on any server; the server only handles the P2P connection but cannot read or modify anything.
 
 La comunicación es en tiempo real, cifrada y solo disponible mientras ambas personas están conectadas.  
 Communication is real-time, encrypted, and only available while both users are connected.
