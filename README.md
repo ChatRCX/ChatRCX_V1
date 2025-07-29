@@ -92,6 +92,24 @@ TRON (TRC20)
 BNB Smart Chain (BEP20)
 --------------
 
+Estado Actual / Current Status
+Después de desarrollar la versión en C# de la aplicación y realizar múltiples pruebas, hemos escaneado el ejecutable en VirusTotal con resultados impecables:
+✅ 100% limpio — sin virus, sin backdoors, sin malware, sin botnets ni nada sospechoso.
+
+Puedes verificarlo tú mismo aquí:
+https://www.virustotal.com/gui/file/f49912caa7446125ce51b024b803b883ef6c901694e36741ba559b03c1ef9d18
+
+Esto garantiza la transparencia y seguridad total de nuestro software.
+
+Current Status
+After developing the C# version of the application and performing multiple tests, we scanned the executable on VirusTotal with impeccable results:
+✅ 100% clean — no viruses, backdoors, malware, botnets, or anything suspicious.
+
+You can verify it yourself here:
+https://www.virustotal.com/gui/file/f49912caa7446125ce51b024b803b883ef6c901694e36741ba559b03c1ef9d18
+
+This guarantees full transparency and security of our software.
+
 **Gracias por confiar en ChatRCX y apoyar la privacidad real.**  
 **Thank you for trusting ChatRCX and supporting real privacy.**
 
