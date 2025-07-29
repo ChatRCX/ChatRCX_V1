@@ -8,6 +8,9 @@ We believe true privacy isn’t bought — it’s built.
 
 ## ¿Cómo se usa? / How to Use It
 
+YT TUTO:
+https://youtu.be/jUH7-98JtWM
+
 Al iniciar la aplicación, deberás ingresar una **clave secreta (secret key)** de exactamente 16 caracteres.  
 When launching the application, you must enter a **secret key** that is exactly 16 characters long.
 
