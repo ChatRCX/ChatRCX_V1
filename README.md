@@ -6,9 +6,21 @@ We are a team committed to creating a secure, private, and decentralized communi
 Creemos que la verdadera privacidad no se compra, se construye.  
 We believe true privacy isn’t bought — it’s built.
 
+ChatRCX es un sistema de comunicación seguro que utiliza cifrado AES256-GCM con una clave secreta aleatoria de 16 bytes para cada sesión. Esto significa que los mensajes están protegidos de extremo a extremo, y solo los clientes que participan en la comunicación pueden leerlos.
+
+Aunque alguien acceda al código del servidor (server.py) y lo modifique, no podrá descifrar ni leer los mensajes, ya que el servidor solo transmite datos cifrados y nunca tiene acceso a las claves secretas. Además, cualquier intento de modificar un mensaje se detecta inmediatamente gracias al modo GCM, que garantiza la integridad de los datos.
+
+En cuanto al tiempo que tomaría descifrar un mensaje sin la clave, debido a la longitud y aleatoriedad de la clave, romper el cifrado por fuerza bruta llevaría más tiempo que la edad del universo, incluso usando supercomputadoras.
+
+ChatRCX is a secure communication system that uses AES256-GCM encryption with a random 16-byte secret key for each session. This means messages are protected end-to-end, and only the communicating clients can read them.
+
+Even if someone gains access to the server code (server.py) and modifies it, they won’t be able to decrypt or read the messages because the server only relays encrypted data and never has access to the secret keys. Additionally, any attempt to tamper with a message is immediately detected thanks to GCM mode, which ensures data integrity.
+
+As for how long it would take to crack a message without the key, due to the key’s length and randomness, brute forcing the encryption would take longer than the age of the universe—even with supercomputers.
+
 ## ¿Cómo se usa? / How to Use It
 
-YT TUTO:
+Tutorial:
 https://youtu.be/jUH7-98JtWM
 
 Al iniciar la aplicación, deberás ingresar una **clave secreta (secret key)** de exactamente 16 caracteres.  
